@@ -3,7 +3,8 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'puma/puma'
 
-cask 'java8'
+# required by elasticsearch
+cask 'homebrew/cask-versions/java8'
 
 brew 'ack'
 brew 'autoconf'
