@@ -45,6 +45,7 @@ brew 'yarn'
 cask 'android-file-transfer'
 cask 'android-studio'
 cask 'atom'
+cask 'caffeine'
 cask 'cleanmymac'
 cask 'dropbox'
 cask 'firefox'
@@ -71,7 +72,6 @@ mas 'Keynote', id: 409183694
 mas 'Evernote', id: 406056744
 mas 'Skitch', id: 425955336
 mas '3Hub', id: 427515976
-mas 'Caffeine', id: 411246225
 mas 'RAR Extractor Lite', id: 646295438
 mas 'Telegram', id: 747648890
 mas 'Todoist', id: 585829637
