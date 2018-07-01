@@ -1,5 +1,10 @@
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Marian Krekoten
+        email = krekoten@gmail.com
+        signingkey = 5139AEE055B90201
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = osxkeychain
+[commit]
+        gpgsign = true
+[gpg]
+        program = /usr/local/bin/gpg
