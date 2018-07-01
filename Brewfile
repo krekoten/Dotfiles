@@ -4,7 +4,15 @@ tap 'homebrew/bundle'
 tap 'puma/puma'
 
 brew 'ack'
+brew 'autoconf'
+brew 'automake'
+brew 'cmake'
 brew 'coreutils'
+brew 'curl'
+brew 'elasticsearch'
+brew 'ffmpeg'
+brew 'git-standup'
+brew 'gnupg'
 brew 'go'
 brew 'grc'
 brew 'imagemagick'
@@ -12,32 +20,60 @@ brew 'jp2a'
 brew 'jq'
 brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
-brew 'openssl'
+brew 'mariadb'
+brew 'mas'
+brew 'nginx'
 brew 'node'
-brew 'readline'
+brew 'openssl'
+brew 'pinentry-mac'
+brew 'postgis'
 brew 'postgresql'
 brew 'puma/puma/puma-dev'
-brew 'ruby-build'
+brew 'rabbitmq'
 brew 'rbenv'
+brew 'readline'
+brew 'redis'
 brew 'roundup'
+brew 'ruby-build'
 brew 'spaceman-diff'
-brew 'spark'
 brew 'unrar'
 brew 'wget'
+brew 'xz'
+brew 'yajl'
 brew 'yarn'
-brew 'youtube-dl'
 
-cask '1password'
-cask 'adium'
+cask 'android-file-transfer'
+cask 'android-studio'
 cask 'atom'
+cask 'cleanmymac'
+cask 'dropbox'
 cask 'firefox'
+cask 'flume'
 cask 'garmin-express'
+cask 'genymotion'
 cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
+cask 'insomnia'
+cask 'postbird'
+cask 'sketch'
 cask 'slack'
-cask 'steam'
+cask 'sequel-pro'
+cask 'skim'
+cask 'skype'
+cask 'telegram'
 cask 'transmission'
-cask 'tunnelbear'
+cask 'viber'
 cask 'vlc'
+
+mas 'XCode', id: 497799835
+mas '250+ Solitaires', id: 680532369
+mas 'The Unarchiver', id: 425424353
+mas 'Keynote', id: 409183694
+mas 'Evernote', id: 406056744
+mas 'Skitch', id: 425955336
+mas '3Hub', id: 427515976
+mas 'Caffeine', id: 411246225
+mas 'RAR Extractor Lite', id: 646295438
+mas 'Telegram', id: 747648890
+mas 'Todoist', id: 585829637
+mas 'Pages', id: 409201541
+mas 'Numbers', id: 409203825
