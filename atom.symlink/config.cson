@@ -49,6 +49,13 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      isDisabledIfNoConfigFile: true
+      isDisabledIfNotInPackageJson: true
+      showInStatusBar: true
+    prettierEslintOptions: {}
+    prettierOptions:
+      semi: false
+      singleQuote: true
   "recent-files-fuzzy-finder":
     restoreSession: true
   welcome:
