@@ -44,6 +44,7 @@ brew 'wget'
 brew 'xz'
 brew 'yajl'
 brew 'yarn'
+brew 'zeromq'
 
 cask 'android-file-transfer'
 cask 'android-studio'
