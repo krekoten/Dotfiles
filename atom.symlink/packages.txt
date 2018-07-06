@@ -1,9 +1,9 @@
 busy-signal@1.4.3
 intentions@1.1.5
-linter@2.0.0
+linter@2.2.0
 linter-eslint@8.4.1
 linter-ui-default@1.7.1
-nuclide@0.319.0
+nuclide@0.321.0
 prettier-atom@0.54.0
 recent-files-fuzzy-finder@0.6.1
 sort-lines@0.18.0
