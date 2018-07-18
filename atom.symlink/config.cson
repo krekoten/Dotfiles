@@ -15,9 +15,9 @@
       ]
     disabledPackages: [
       "linter-haml"
-      "linter"
       "tree-view"
       "image-view"
+      "linter-rubocop"
     ]
     ignoredNames: [
       ".git"
@@ -40,6 +40,12 @@
     fontSize: 12
   "exception-reporting":
     userId: "162b11af-93f4-4005-b7f6-21407d5f6506"
+  linter: {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    ignoreFixableRulesWhileTyping: true
+  "linter-rubocop":
+    disableWhenNoConfigFile: true
   "linter-ui-default":
     showPanel: true
   nuclide:
@@ -49,13 +55,18 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
-      isDisabledIfNoConfigFile: true
       isDisabledIfNotInPackageJson: true
       showInStatusBar: true
+      whitelistedGlobs: [
+        "*.jsx"
+        "*.js"
+      ]
     prettierEslintOptions: {}
     prettierOptions:
       semi: false
       singleQuote: true
+    useEditorConfig: false
+    useEslint: true
   "recent-files-fuzzy-finder":
     restoreSession: true
   welcome:
