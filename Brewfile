@@ -49,7 +49,6 @@ brew 'zsh-completions'
 
 cask 'android-file-transfer'
 cask 'android-studio'
-cask 'atom'
 cask 'caffeine'
 cask 'cleanmymac'
 cask 'dropbox'
@@ -66,6 +65,7 @@ cask 'skype'
 cask 'toggl'
 cask 'transmission'
 cask 'viber'
+cask 'visual-studio-code'
 cask 'vlc'
 
 mas 'XCode', id: 497799835
