@@ -45,6 +45,7 @@ brew 'xz'
 brew 'yajl'
 brew 'yarn'
 brew 'zeromq'
+brew 'zsh-completions'
 
 cask 'android-file-transfer'
 cask 'android-studio'
