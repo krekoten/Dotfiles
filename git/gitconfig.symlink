@@ -21,7 +21,7 @@
         old = red
         new = green
 [core]
-        excludesfile = ~/.gitignore
+	excludesfile = /Users/m/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
@@ -45,3 +45,9 @@
 [user]
 	name = Marian Krekoten
 	email = krekoten@gmail.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
