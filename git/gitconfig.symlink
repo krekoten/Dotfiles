@@ -10,7 +10,7 @@
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
         nb = checkout -b
-        cleanup-branches = "!git branch --merged | egrep -v \"(^\\*|master|dev)\" | xargs git branch -d"
+        cleanup-branches = "!git branch --merged | egrep -v \"(^\\*|master|main|staging|dev)\" | xargs git branch -d"
 [color "status"]
         added = yellow
         changed = green
@@ -51,3 +51,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[pull]
+	ff = only

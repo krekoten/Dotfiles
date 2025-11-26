@@ -16,9 +16,7 @@ fi
 export ARCHFLAGS="-arch x86_64"
 
 # ssh
-ssh-add ~/.ssh/id_rsa
-ssh-add ~/.ssh/news_hub.pem
-ssh-add ~/.ssh/inoxoft
+ssh-add ~/.ssh/(id_rsa|id_ed25519)
 
 # Android Studio
 
@@ -65,3 +63,4 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
